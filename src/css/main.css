@@ -156,6 +156,9 @@ box-shadow: 0 0 35px 0 rgba(0, 255, 242, 0.1);
 .core-text-desk{
     width: 420px;
 }
+.core-container{
+    padding-bottom: 150px;
+}
 }
 /* Match Mechanics */
 .match-section{
@@ -210,4 +213,53 @@ align-items: center;
     line-height: 1.5625;
  }
 
+}
+/* From Basic Pulses to Complex Fields */
+.from-container{
+padding-left: 21px;
+padding-right: 21px;
+}
+.from-text{
+    margin-top: 30px;    
+}
+.from-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.from-item{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.from-img{
+    width: 7px;
+    height: 7px;
+}
+.from-text-blue{
+    margin-top: 20px;
+}
+@media only screen and (min-width: 1440px) {
+  .from-container{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .from-wrapper{
+    width: 779px;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  .from-text{
+    margin-top: 50px;
+  }
+  .from-list{
+width: 644px;
+  }
+  .from-img{
+    width: 16px;
+    height: 16px;
+  }
 }
