@@ -100,3 +100,114 @@ font-size: 24px;
     width: 779px;
  }
 }
+/* Core Gameplay */
+.core-section{
+    background-image: url("/img/core/mob.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.core-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.core-item{
+    border: 1px solid rgba(255, 255, 255, 0.19);
+        border-radius: 30px;
+        padding: 22px 23px;
+box-shadow: 0 0 35px 0 rgba(0, 255, 242, 0.1);
+    background: #000f28;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.core-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.core-text{
+    width: 231px;
+}
+.core-container{
+    padding-bottom: 70px;
+}
+@media only screen and (min-width: 1440px) {
+ .core-section{
+    background-image: url("/img/core/desk.png");
+ }
+ .core-list{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: center;
+    gap: 20px;
+ }
+ .core-item{
+    width: 554px;
+        height: 184px;
+        align-items: start;
+ }
+.core-text{
+    width: 420px;
+}
+.core-text-desk{
+    width: 420px;
+}
+}
+/* Match Mechanics */
+.match-section{
+    background-image: url("/img/match/mob.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.match-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.match-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.19);
+        border-radius: 30px;
+        padding: 22px 23px;
+        box-shadow: 0 0 35px 0 rgba(0, 255, 242, 0.1);
+            background: rgba(0, 15, 40, 0.8);
+}
+.match-img{
+    width: 46px;
+    height: 46px;
+}
+
+.match-text{
+    margin-top: 6px;
+    width: 214px;
+}
+@media only screen and (min-width: 1440px) {
+ .match-list{
+    margin-top: 50px;
+    gap: 20px;
+align-items: center;
+ }
+ .match-item{
+    width: 794px;
+    gap: 88px;
+ }
+ .match-img{
+    width: 69px;
+    height: 69px;
+ }
+ .match-text{
+    width: 592px;
+    font-size: 16px;
+    margin-top: 13px;
+    line-height: 1.5625;
+ }
+
+}
