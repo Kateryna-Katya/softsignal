@@ -1,0 +1,86 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.home-container{
+    padding-top: 180px;
+    padding-bottom: 250px;
+}
+.home-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-title{
+    font-family: "Source Code Pro", sans-serif;
+font-weight: 900;
+font-size: 30px;
+text-align: center;
+color: #fff;
+}
+.home-text{
+    margin-top: 10px;
+    font-family: "Source Code Pro", sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #fff;
+}
+.home-text-wrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #fff;
+}
+.home-link{
+    margin-top: 20px;
+    border-radius: 20px;
+padding: 25px 35px;
+width: 196px;
+height: 51px;
+background: linear-gradient(129deg, #7ac1ed 0%, #0c2bc7 100%);
+font-family: "Source Code Pro", sans-serif;
+font-weight: 900;
+font-size: 14px;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.home-link:hover{
+    background: linear-gradient(129deg, #4e728b 0%, #0824b1 100%);
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+    background-image: url("/img/home/desk.png");
+ }   
+ .home-container{
+    padding-top: 228px;
+    padding-bottom: 174px;
+ }
+ .home-title{
+    font-size: 50px;
+ }
+ .home-text{
+    font-size: 24px;
+ }
+ .home-text-wrapper{
+    gap: 20px;
+    font-size: 18px;
+ }
+ .home-link{
+    margin-top: 100px;
+width: 448px;
+height: 80px;
+font-size: 24px;
+ }
+}
